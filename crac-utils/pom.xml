@@ -8,7 +8,7 @@
 	
 	<parent>
 		<groupId>fr.lbenoit.conference.crac</groupId>
-		<artifactId>crac-java</artifactId>
+		<artifactId>openjdk-crac-vs-graalvm-exos</artifactId>
 		<version>1.0.0</version>
 	</parent>
 	

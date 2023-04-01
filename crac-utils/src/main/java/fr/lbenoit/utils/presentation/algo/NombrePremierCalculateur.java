@@ -1,4 +1,4 @@
-package fr.lbenoit.utils.presentation;
+package fr.lbenoit.utils.presentation.algo;
 
 import java.util.HashMap;
 import java.util.Map;

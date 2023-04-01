@@ -19,6 +19,8 @@
 		</license>
 	</licenses>
 	<modules>
+		<module>crac-java</module>
+		<module>crac-utils</module>
 	</modules>
 	<dependencies>
 		<dependency>

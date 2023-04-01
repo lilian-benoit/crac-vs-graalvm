@@ -12,7 +12,6 @@
 	<modules>
 		<module>crac-java-debut</module>
 		<module>crac-java-solution</module>
-		<module>crac-utils</module>
 	</modules>
 	<build>
 		<plugins>

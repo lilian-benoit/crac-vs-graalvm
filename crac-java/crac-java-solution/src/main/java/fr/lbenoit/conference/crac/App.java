@@ -1,6 +1,6 @@
 package fr.lbenoit.conference.crac;
 
-import fr.lbenoit.utils.presentation.NombrePremierCalculateur;
+import fr.lbenoit.utils.presentation.algo.NombrePremierCalculateur;
 import fr.lbenoit.utils.presentation.horodatage.HorodatageUtils;
 import jdk.crac.*;
 
