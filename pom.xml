@@ -20,6 +20,7 @@
 	</licenses>
 	<modules>
 		<module>crac-java</module>
+		<module>crac-jetty</module>
 		<module>crac-utils</module>
 	</modules>
 	<dependencies>
