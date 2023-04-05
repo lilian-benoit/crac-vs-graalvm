@@ -9,7 +9,8 @@ import javax.servlet.http.HttpServletResponse;
 import org.eclipse.jetty.server.Request;
 import org.eclipse.jetty.server.handler.AbstractHandler;
 
-import fr.lbenoit.utils.presentation.algo.NombrePremierCalculateur;
+import fr.lbenoit.utils.presentation.utils.algo.NombrePremierCalculateur;
+
 
 public class App extends AbstractHandler {
 	private NombrePremierCalculateur calculateur = null; 

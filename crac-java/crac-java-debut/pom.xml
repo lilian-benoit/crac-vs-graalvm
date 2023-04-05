@@ -9,11 +9,4 @@
 		<artifactId>crac-java</artifactId>
 		<version>1.0.0</version>
 	</parent>
-	<dependencies>
-		<dependency>
-			<groupId>fr.lbenoit.conference.crac</groupId>
-			<artifactId>crac-utils</artifactId>
-			<version>${project.version}</version>
-		</dependency>
-	</dependencies>
 </project>

@@ -15,10 +15,5 @@
 			<artifactId>jetty-server</artifactId>
 			<version>9.4.30.v20200611</version>
 		</dependency>
-		<dependency>
-			<groupId>fr.lbenoit.conference.crac</groupId>
-			<artifactId>crac-utils</artifactId>
-			<version>${project.version}</version>
-		</dependency>
 	</dependencies>
 </project>
