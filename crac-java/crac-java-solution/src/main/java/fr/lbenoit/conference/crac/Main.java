@@ -1,6 +1,6 @@
 package fr.lbenoit.conference.crac;
 
-import fr.lbenoit.utils.presentation.horodatage.HorodatageUtils;
+import fr.lbenoit.utils.presentation.utils.horodatage.HorodatageUtils;
 
 public class Main {
 	public static void main(String[] args) {

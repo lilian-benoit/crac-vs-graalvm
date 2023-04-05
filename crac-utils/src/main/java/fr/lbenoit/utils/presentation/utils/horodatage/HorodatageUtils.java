@@ -1,4 +1,4 @@
-package fr.lbenoit.utils.presentation.horodatage;
+package fr.lbenoit.utils.presentation.utils.horodatage;
 
 import java.lang.management.ManagementFactory;
 
