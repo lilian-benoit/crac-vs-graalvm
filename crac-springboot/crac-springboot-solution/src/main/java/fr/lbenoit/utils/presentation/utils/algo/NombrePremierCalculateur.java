@@ -7,7 +7,7 @@ public class NombrePremierCalculateur {
     private static final Map<Long, Boolean> cache = new HashMap<>();
 
     public NombrePremierCalculateur() {
-        for (int i = 1 ; i < 50_000 ; i++) {
+        for (int i = 1 ; i < 100_000 ; i++) {
             estNombrePremier(i);
         }
 	}

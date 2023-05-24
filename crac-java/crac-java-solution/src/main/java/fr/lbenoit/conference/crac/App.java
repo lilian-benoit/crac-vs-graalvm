@@ -15,7 +15,7 @@ public class App implements Resource {
 		final long debut = HorodatageUtils.getTime();
 		
 		calculateur = new NombrePremierCalculateur();
-		calculateur.estNombrePremier(25000);
+		calculateur.estNombrePremier(75000);
 		
 		HorodatageUtils.logTime("Durée du premier résultat", debut);
 	}
