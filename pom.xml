@@ -21,6 +21,7 @@
 	<modules>
 		<module>crac-java</module>
 		<module>crac-jetty</module>
+		<module>crac-springboot</module>
 	</modules>
 	<dependencies>
 		<dependency>

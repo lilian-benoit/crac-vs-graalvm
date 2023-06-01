@@ -10,8 +10,8 @@
 		<version>1.0.0</version>
 	</parent>
 	<modules>
-		<module>crac-jetty-debut</module>
-		<module>crac-jetty-solution</module>
+		<module>debut</module>
+		<module>solution</module>
 	</modules>
 	<build>
 		<plugins>
