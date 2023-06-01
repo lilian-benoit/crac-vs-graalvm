@@ -15,6 +15,8 @@ if [ "$JAVA_HOME" == "" ]; then
   exit -1;
 fi
 
+mkdir /tmp/crac-files
+
 ARCHIVE=`ls target/*.jar | cut -d'/' -f2`
 
 echo "$JAVA_HOME/bin/java -XX:CRaCCheckpointTo=/tmp/crac-files/java -jar target/$ARCHIVE"
