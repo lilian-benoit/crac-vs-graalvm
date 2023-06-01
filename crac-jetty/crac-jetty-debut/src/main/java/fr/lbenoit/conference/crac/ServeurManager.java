@@ -3,7 +3,7 @@ package fr.lbenoit.conference.crac;
 import org.eclipse.jetty.server.Handler;
 import org.eclipse.jetty.server.Server;
 
-class ServeurManager /*implements Resource*/ {
+class ServeurManager {
     Server server;
     Thread preventExitThread;
 
@@ -11,7 +11,6 @@ class ServeurManager /*implements Resource*/ {
         server = new Server(8080);
         server.setHandler(handler);
         server.start();
-        //Core.getGlobalContext().register(this);
 
         // permet de prévenir l'arrêt de la JVM.
         preventExitThread = new Thread(() -> {
@@ -24,4 +23,5 @@ class ServeurManager /*implements Resource*/ {
         });
         preventExitThread.start();
     }
+
 }
